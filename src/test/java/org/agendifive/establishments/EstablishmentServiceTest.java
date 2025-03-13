@@ -1,10 +1,10 @@
 package org.agendifive.establishments;
-import org.agendifive.establishments.model.Establishment;
-import org.agendifive.establishments.model.EstablishmentRequest;
-import org.agendifive.establishments.model.EstablishmentScheduleRequest;
-import org.agendifive.establishments.model.ResponseStablishment;
-import org.agendifive.establishments.service.EstablishmentRepository;
-import org.agendifive.establishments.service.EstablishmentService;
+import org.agendifive.establishments.model.establishment.Establishment;
+import org.agendifive.establishments.model.establishment.EstablishmentRequest;
+import org.agendifive.establishments.model.establishment.EstablishmentScheduleRequest;
+import org.agendifive.establishments.model.establishment.ResponseStablishment;
+import org.agendifive.establishments.service.establishment.EstablishmentRepository;
+import org.agendifive.establishments.service.establishment.EstablishmentService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
@@ -14,7 +14,6 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
-import java.time.LocalTime;
 @ExtendWith(MockitoExtension.class)
 class EstablishmentServiceTest {
 

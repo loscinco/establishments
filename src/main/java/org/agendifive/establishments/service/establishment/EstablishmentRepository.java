@@ -1,6 +1,6 @@
-package org.agendifive.establishments.service;
+package org.agendifive.establishments.service.establishment;
 
-import org.agendifive.establishments.model.Establishment;
+import org.agendifive.establishments.model.establishment.Establishment;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

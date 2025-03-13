@@ -1,4 +1,4 @@
-package org.agendifive.establishments.model;
+package org.agendifive.establishments.model.establishment;
 
 
 import io.swagger.v3.oas.annotations.media.Schema;

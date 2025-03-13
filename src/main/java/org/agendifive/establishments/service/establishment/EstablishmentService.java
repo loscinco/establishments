@@ -1,11 +1,11 @@
-package org.agendifive.establishments.service;
+package org.agendifive.establishments.service.establishment;
 
-import org.agendifive.establishments.model.Establishment;
-import org.agendifive.establishments.model.EstablishmentRequest;
-import org.agendifive.establishments.model.EstablishmentSchedule;
-import org.agendifive.establishments.model.ResponseStablishment;
-import org.agendifive.establishments.service.EstablishmentInterface;
-import org.agendifive.establishments.service.EstablishmentRepository;
+import org.agendifive.establishments.model.establishment.Establishment;
+import org.agendifive.establishments.model.establishment.EstablishmentRequest;
+import org.agendifive.establishments.model.establishment.EstablishmentSchedule;
+import org.agendifive.establishments.model.establishment.ResponseStablishment;
+import org.agendifive.establishments.service.establishment.EstablishmentInterface;
+import org.agendifive.establishments.service.establishment.EstablishmentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

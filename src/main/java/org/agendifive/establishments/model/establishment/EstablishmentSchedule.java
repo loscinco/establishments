@@ -1,7 +1,7 @@
-package org.agendifive.establishments.model;
+package org.agendifive.establishments.model.establishment;
 
 import jakarta.persistence.*;
-import org.agendifive.establishments.model.Establishment;
+import org.agendifive.establishments.model.establishment.Establishment;
 
 import java.time.LocalTime;
 

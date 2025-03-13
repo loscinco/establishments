@@ -1,6 +1,6 @@
-package org.agendifive.establishments.model;
+package org.agendifive.establishments.model.establishment;
 
-import org.agendifive.establishments.model.Establishment;
+import org.agendifive.establishments.model.establishment.Establishment;
 
 import java.util.List;
 

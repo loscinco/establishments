@@ -1,4 +1,4 @@
-package org.agendifive.establishments.model;
+package org.agendifive.establishments.model.establishment;
 
 
 import jakarta.validation.constraints.NotBlank;

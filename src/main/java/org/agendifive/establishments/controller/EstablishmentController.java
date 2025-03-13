@@ -4,9 +4,9 @@ import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
-import org.agendifive.establishments.service.EstablishmentInterface;
-import org.agendifive.establishments.model.EstablishmentRequest;
-import org.agendifive.establishments.model.ResponseStablishment;
+import org.agendifive.establishments.service.establishment.EstablishmentInterface;
+import org.agendifive.establishments.model.establishment.EstablishmentRequest;
+import org.agendifive.establishments.model.establishment.ResponseStablishment;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
